@@ -2,7 +2,6 @@
 // Created by Ray Jenkins on 4/27/15.
 //
 
-#include <zookeeper.h>
 #include "GetDataBuilderImpl.h"
 
 GetDataBuilderImpl::GetDataBuilderImpl(zhandle_t *zk, int znode_size) {

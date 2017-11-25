@@ -4,10 +4,10 @@
 
 #ifndef CONSERVATOR_STATABLEPATHABLE_H
 #define CONSERVATOR_STATABLEPATHABLE_H
-#include <iostream>
-#include <zookeeper.jute.h>
+
+#include <zookeeper/zookeeper.jute.h>
+
 #include "Pathable.h"
-#include <memory>
 
 using namespace std;
 

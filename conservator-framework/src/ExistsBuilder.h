@@ -5,10 +5,8 @@
 #ifndef CONSERVATOR_EXISTSBUILDER_H
 #define CONSERVATOR_EXISTSBUILDER_H
 
-
 #include "Pathable.h"
 #include "Watchable.h"
-#include "zookeeper.h"
 #include "PathableAndWatchable.h"
 
 template<class T>

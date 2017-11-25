@@ -5,9 +5,10 @@
 #ifndef CONSERVATOR_VECTORPATHABLEANDWATCHABLE_H
 #define CONSERVATOR_VECTORPATHABLEANDWATCHABLE_H
 
-#include <iostream>
-#include <zookeeper.h>
-#include "vector"
+#include <vector>
+
+#include <zookeeper/zookeeper.h>
+
 #include "VectorPathable.h"
 #include "Pathable.h"
 

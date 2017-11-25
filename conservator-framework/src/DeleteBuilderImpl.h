@@ -5,8 +5,8 @@
 #ifndef CONSERVATOR_DELETEBUILDERIMPL_H
 #define CONSERVATOR_DELETEBUILDERIMPL_H
 
-#include <zookeeper.h>
-#include <iostream>
+#include <zookeeper/zookeeper.h>
+
 #include "DeleteBuilder.h"
 
 using namespace std;

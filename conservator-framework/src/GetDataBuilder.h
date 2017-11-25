@@ -5,12 +5,9 @@
 #ifndef CONSERVATOR_GETDATABUILDER_H
 #define CONSERVATOR_GETDATABUILDER_H
 
-
-#include <zookeeper.jute.h>
 #include "Pathable.h"
 #include "Statable.h"
 #include "Watchable.h"
-#include <memory>
 
 template<class T>
 class GetDataBuilder : public Pathable<string>, public Statable<string>, public Watchable<string> {

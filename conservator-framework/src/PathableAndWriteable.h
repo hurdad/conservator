@@ -5,7 +5,6 @@
 #ifndef CONSERVATOR_PATHABLEANDWRITEABLE_H
 #define CONSERVATOR_PATHABLEANDWRITEABLE_H
 
-#include <iostream>
 using namespace std;
 
 template<class T>

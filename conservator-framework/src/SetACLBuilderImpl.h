@@ -5,8 +5,8 @@
 #ifndef CONSERVATOR_SETACLBUILDERIMPL_H
 #define CONSERVATOR_SETACLBUILDERIMPL_H
 
+#include <zookeeper/zookeeper.h>
 
-#include <zookeeper.h>
 #include "SetACLBuilder.h"
 
 class SetACLBuilderImpl : public SetACLBuilder<int> {

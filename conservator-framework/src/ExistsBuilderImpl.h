@@ -5,8 +5,8 @@
 #ifndef CONSERVATOR_EXISTSBUILDERIMPL_H
 #define CONSERVATOR_EXISTSBUILDERIMPL_H
 
-#include <stdbool.h>
-#include <zookeeper.h>
+#include <zookeeper/zookeeper.h>
+
 #include "ExistsBuilder.h"
 
 class ExistsBuilderImpl : public ExistsBuilder<int> {

@@ -5,13 +5,10 @@
 #ifndef CONSERVATOR_SETDATABUILDER_H
 #define CONSERVATOR_SETDATABUILDER_H
 
-#include <zookeeper.jute.h>
 #include "Watchable.h"
 #include "Statable.h"
 #include "PathableAndWriteable.h"
 #include "Versionable.h"
-#include <memory>
-#include <zookeeper.h>
 
 template<class T>
 class SetDataBuilder : PathableAndWriteable<int>, public Versionable<int> {

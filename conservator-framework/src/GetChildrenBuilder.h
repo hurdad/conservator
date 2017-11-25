@@ -5,7 +5,8 @@
 #ifndef CONSERVATOR_GETCHILDRENBUILDER_H
 #define CONSERVATOR_GETCHILDRENBUILDER_H
 
-#include "vector"
+#include <vector>
+
 #include "VectorPathableAndWatchable.h"
 
 using namespace std;

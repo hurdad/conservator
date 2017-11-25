@@ -5,12 +5,8 @@
 #ifndef CONSERVATOR_STATABLE_H
 #define CONSERVATOR_STATABLE_H
 
-#include <iostream>
-#include <zookeeper.jute.h>
 #include "Pathable.h"
-#include <memory>
 
-using namespace std;
 
 template<class T>
 class Statable {

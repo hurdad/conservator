@@ -5,9 +5,9 @@
 #ifndef CONSERVATOR_SETDATABUILDERIMPL_H
 #define CONSERVATOR_SETDATABUILDERIMPL_H
 
-#include <zookeeper.h>
+#include <zookeeper/zookeeper.h>
+
 #include "SetDataBuilder.h"
-#include <iostream>
 
 using namespace std;
 

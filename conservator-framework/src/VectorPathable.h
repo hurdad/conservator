@@ -4,8 +4,8 @@
 
 #ifndef CONSERVATOR_VECTORPATHABLE_H
 #define CONSERVATOR_VECTORPATHABLE_H
-#include <iostream>
-#include "vector"
+
+#include <vector>
 
 using namespace std;
 

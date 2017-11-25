@@ -2,8 +2,9 @@
 // Created by Ray Jenkins on 5/2/15.
 //
 
-#include <string.h>
 #include "DeleteBuilderImpl.h"
+
+#include <string.h>
 
 DeleteBuilderImpl::DeleteBuilderImpl(zhandle_t *zk) {
     this->zk = zk;

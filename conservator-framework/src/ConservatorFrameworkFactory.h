@@ -5,9 +5,7 @@
 #ifndef CONSERVATOR_CONSERVATORFRAMEWORKFACTORY_H
 #define CONSERVATOR_CONSERVATORFRAMEWORKFACTORY_H
 
-
 #include "ConservatorFramework.h"
-#include "zookeeper.h"
 
 class ConservatorFrameworkFactory {
 

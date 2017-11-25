@@ -5,9 +5,8 @@
 #ifndef CONSERVATOR_CREATEBUILDERIMPL_H
 #define CONSERVATOR_CREATEBUILDERIMPL_H
 
+#include <zookeeper/zookeeper.h>
 
-#include <zookeeper.h>
-#include <iostream>
 #include "CreateBuilder.h"
 #include "PathableAndWriteable.h"
 

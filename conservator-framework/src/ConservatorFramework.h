@@ -6,10 +6,12 @@
 #define CONSERVATOR_CONVERATORFRAMEWORK_H
 
 #include <iostream>
-#include <zookeeper.h>
 #include <memory>
 #include <vector>
 #include <mutex>
+
+#include <zookeeper/zookeeper.h>
+
 #include <condition_variable>
 #include "GetDataBuilder.h"
 #include "GetDataBuilderImpl.h"

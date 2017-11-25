@@ -5,12 +5,12 @@
 #ifndef CONSERVATOR_GETCHILDRENBUILDERIMPL_H
 #define CONSERVATOR_GETCHILDRENBUILDERIMPL_H
 
+#include <vector>
+#include <string>
 
-#include <iostream>
-#include <zookeeper.h>
+#include <zookeeper/zookeeper.h>
+
 #include "GetChildrenBuilder.h"
-#include "vector"
-#include "string"
 #include "Pathable.h"
 
 using namespace std;

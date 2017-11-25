@@ -5,7 +5,8 @@
 #ifndef CONSERVATOR_PATHABLE_H
 #define CONSERVATOR_PATHABLE_H
 
-#include <iostream>
+#include <string>
+
 using namespace std;
 
 template<class T>

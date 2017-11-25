@@ -2,7 +2,8 @@
 // Created by rjenkins on 5/30/15.
 //
 
-#include <zookeeper.h>
+#include <zookeeper/zookeeper.h>
+
 #include "GetACLBuilder.h"
 
 #ifndef CONSERVATOR_GETACLBUILDERIMPL_H
